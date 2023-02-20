@@ -5,11 +5,20 @@ nav:
       - ほげ: hoge.md
 
 # metadata
-site_name: MkDocs Test Site
+site_name: ISDL ARCHIVE Document
+theme:
+    logo: images/logo.png
+        
+    name: material
+    # サイトの言語設定
+    language: ja
+    features:
+        # トップに戻るボタン
+        - navigation.top
 docs_dir: src
 use_directory_urls: false
 
-# theme
-theme:
-  name: material
-  language: ja
+  
+
+markdown_extensions:
+    - admonition
